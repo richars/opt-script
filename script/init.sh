@@ -5,10 +5,10 @@ export LD_LIBRARY_PATH=/lib:/opt/lib
 #set -x
 #hiboyfile="https://bitbucket.org/hiboyhiboy/opt-file/raw/master"
 #hiboyscript="https://bitbucket.org/hiboyhiboy/opt-script/raw/master"
-hiboyfile="http://opt.cn2qq.com/opt-file"
-hiboyscript="http://opt.cn2qq.com/opt-script"
-hiboyfile2="https://raw.githubusercontent.com/hiboyhiboy/opt-file/master"
-hiboyscript2="https://raw.githubusercontent.com/hiboyhiboy/opt-script/master"
+hiboyfile="https://raw.githubusercontent.com/richars/opt-file/master"
+hiboyscript="https://raw.githubusercontent.com/richars/opt-script/master"
+hiboyfile2="https://raw.githubusercontent.com/richars/opt-file/master"
+hiboyscript2="https://raw.githubusercontent.com/richars/opt-script/master"
 ACTION=$1
 scriptfilepath=$(cd "$(dirname "$0")"; pwd)/$(basename $0)
 #echo $scriptfilepath
